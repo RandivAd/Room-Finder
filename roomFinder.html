@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UBC Room Finder</title>
+    <link rel="stylesheet" href="roomFinder.css">
+</head>
+<body>
+    <h1>UBC Room Finder</h1>
+    <div class="search-container">
+        <label for="building">Building:</label>
+        <select id="building" name="building">
+            <option value="">All</option>
+            <option value="Irving K. Barber">Irving K. Barber</option>
+            <option value="Koerner">Koerner</option>
+            <option value="Woodward">Woodward</option>
+        </select>
+
+        <label for="capacity">Capacity:</label>
+        <input type="number" id="capacity" name="capacity">
+
+        <label for="whiteboard">Whiteboard:</label>
+        <input type="checkbox" id="whiteboard" name="whiteboard">
+
+        <label for="tv">TV:</label>
+        <input type="checkbox" id="tv" name="tv">
+
+        <label for="outlets">Outlets:</label>
+        <input type="checkbox" id="outlets" name="outlets">
+
+        <button onclick="filterRooms()">Search</button>
+    </div>
+    <div id="results"></div>
+    <script src="roomFinder.js"></script>
+</body>
+</html>
