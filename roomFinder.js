@@ -1,7 +1,24 @@
 const rooms = [
-    { id: 1, building: 'Irving K. Barber', capacity: 4, whiteboard: true, tv: false, outlets: true },
-    { id: 2, building: 'Koerner', capacity: 8, whiteboard: true, tv: true, outlets: true },
-    { id: 3, building: 'Woodward', capacity: 2, whiteboard: false, tv: false, outlets: true }
+    { id: 192, building: 'Irving K. Barber', capacity: 8, whiteboard: true, tv: false, outlets: true },
+    { id: 193, building: 'Irving K. Barber', capacity: 8, whiteboard: true, tv: false, outlets: true },
+    { id: 194, building: 'Irving K. Barber', capacity: 8, whiteboard: true, tv: false, outlets: true },
+    { id: 263, building: 'Irving K. Barber', capacity: 8, whiteboard: true, tv: false, outlets: true },
+    { id: 264, building: 'Irving K. Barber', capacity: 12, whiteboard: true, tv: false, outlets: true },
+    { id: 265, building: 'Irving K. Barber', capacity: 10, whiteboard: true, tv: false, outlets: true },
+    { id: 266, building: 'Irving K. Barber', capacity: 8, whiteboard: true, tv: false, outlets: true },
+    { id: 315, building: 'Irving K. Barber', capacity: 8, whiteboard: true, tv: false, outlets: true },
+    { id: 316, building: 'Irving K. Barber', capacity: 8, whiteboard: true, tv: false, outlets: true },
+    { id: 317, building: 'Irving K. Barber', capacity: 8, whiteboard: true, tv: false, outlets: true },
+    { id: 325, building: 'Irving K. Barber', capacity: 5, whiteboard: false, tv: true, outlets: true },
+    { id: 415, building: 'Irving K. Barber', capacity: 8, whiteboard: true, tv: false, outlets: true },
+    { id: 416, building: 'Irving K. Barber', capacity: 8, whiteboard: true, tv: false, outlets: true },
+    { id: 151, building: 'Koerner', capacity: 10, whiteboard: true, tv: false, outlets: true },
+    { id: 167, building: 'Koerner', capacity: 10, whiteboard: true, tv: false, outlets: true },
+    { id: 168, building: 'Koerner', capacity: 10, whiteboard: true, tv: false, outlets: true },
+    { id: 169, building: 'Koerner', capacity: 10, whiteboard: true, tv: false, outlets: true },
+    { id: 20, building: 'Woodward', capacity: 6, whiteboard: false, tv: false, outlets: true },
+    { id: 215, building: 'Woodward', capacity: 6, whiteboard: false, tv: false, outlets: true },
+    { id: 216, building: 'Woodward', capacity: 6, whiteboard: false, tv: false, outlets: true },
 ];
 
 function filterRooms() {
