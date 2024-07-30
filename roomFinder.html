@@ -12,9 +12,9 @@
         <label for="building">Building:</label>
         <select id="building" name="building">
             <option value="">All</option>
-            <option value="Irving K. Barber">Irving K. Barber</option>
-            <option value="Koerner">Koerner</option>
-            <option value="Woodward">Woodward</option>
+            <option value="Building A">Building A</option>
+            <option value="Building B">Building B</option>
+            <option value="Building C">Building C</option>
         </select>
 
         <label for="capacity">Capacity:</label>
@@ -32,6 +32,15 @@
         <button onclick="filterRooms()">Search</button>
     </div>
     <div id="results"></div>
+
+    <!-- Modal for more info -->
+    <div id="roomModal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <div id="modal-details"></div>
+        </div>
+    </div>
+
     <script src="roomFinder.js"></script>
 </body>
 </html>
