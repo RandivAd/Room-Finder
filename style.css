@@ -187,6 +187,17 @@ h1 a {
     color: #333;
 }
 
+.extra-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+    margin: auto;
+    color: #0055B7
+}
+
+
 /* Footer */
 footer {
     text-align: center;

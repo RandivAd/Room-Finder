@@ -75,7 +75,6 @@ function showRoomDetails(room) {
         <p>Whiteboard: ${room.whiteboard ? 'Yes' : 'No'}</p>
         <p>TV: ${room.tv ? 'Yes' : 'No'}</p>
         <p>Outlets: ${room.outlets ? 'Yes' : 'No'}</p>
-        <p>${room.details}</p>
         <p><a href="${room.url}" target="_blank">Room Website</a></p>
     `;
     modal.style.display = 'block';
