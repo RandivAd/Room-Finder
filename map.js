@@ -1,7 +1,7 @@
-// Initialize the map
+// Initialize the map using Leaflet and OpenStreetMap tiles
 const map = L.map('map').setView([49.2606, -123.2460], 15); // UBC coordinates
 
-// Add OpenStreetMap tile layer
+// Add OpenStreetMap tile layer - © OpenStreetMap contributors
 L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
     attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
 }).addTo(map);
