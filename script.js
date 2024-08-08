@@ -105,3 +105,20 @@ window.onclick = function(event) {
 window.onload = function() {
     displayRooms(rooms);
 };
+
+
+// for map usage
+function getQueryParam(param) {
+    const urlParams = new URLSearchParams(window.location.search);
+    return urlParams.get(param);
+}
+
+window.onload = function() {
+    const building = getQueryParam('building');
+    if (building) {
+        document.getElementById('building').value = building;
+        filterRooms();
+    } else {
+        displayRooms(rooms);
+    }
+};
